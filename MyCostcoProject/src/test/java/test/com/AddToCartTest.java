@@ -63,6 +63,7 @@ public class AddToCartTest {
         Thread.sleep(15000);
         driver.findElement(By.xpath("//div[@id='costcoModal']/div/div/div/button/span")).click();
         driver.findElement(By.xpath("//a[@id=\"cart-d\"]")).click();
+        driver.close();
 
     }
 }
